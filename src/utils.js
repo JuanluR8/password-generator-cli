@@ -9,7 +9,7 @@ export const generatePassword = (length, pool) => {
     return password;
 }
 
-export const buildPool = (options) => {
+export const buildPool = (options = {}) => {
     const { symbols, numbers } = options
 
     let pool = [

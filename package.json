@@ -4,7 +4,8 @@
   "description": "Password generator command line tool built with node",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate": "node .",
+    "test": "vitest run"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +18,8 @@
   },
   "bin": {
     "generate-password": "./src/index.js"
+  },
+  "devDependencies": {
+    "vitest": "^0.33.0"
   }
 }

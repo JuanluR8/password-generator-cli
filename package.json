@@ -7,10 +7,17 @@
     "generate": "node .",
     "test": "vitest run"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node",
+    "cli"
+  ],
+  "author": "JuanluR8",
   "type": "module",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JuanluR8/password-generator-cli.git"
+  },
   "dependencies": {
     "chalk": "^5.3.0",
     "clipboardy": "^3.0.0",
